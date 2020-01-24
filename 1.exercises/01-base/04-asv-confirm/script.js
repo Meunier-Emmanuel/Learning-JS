@@ -9,28 +9,17 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-// (() => {
-//     var age = prompt('quel est ton âge ?');
-//     var sexe = prompt('Quel est ton sexe?');
-//     var ville = prompt('ou habite tu ? ');
-//     while (confirm("tu as " + age + ' ans \n' + " ton sexe est: " + sexe + "\n tu habites " + ville) === false) {
-//         age = prompt('quel est ton âge ?');
-//         sexe = prompt('Quel est ton sexe?');
-//         ville = prompt('ou habite tu ? ');
-//     }
+(() => {
+    var age = prompt('quel est ton âge ?');
+    var sexe = prompt('Quel est ton sexe?');
+    var ville = prompt('ou habite tu ? ');
+    while (confirm("tu as " + age + ' ans \n' + " ton sexe est: " + sexe + "\n tu habites " + ville) === false) {
+        age = prompt('quel est ton âge ?');
+        sexe = prompt('Quel est ton sexe?');
+        ville = prompt('ou habite tu ? ');
+    }
 
-// })();
-let getOddOccurrence = (arr) => {
-    //   getOddOccurence.foreach(odd ()=>{
-    //     if(odd)
-      let 
-      for(let i=0;i< table.length;i++){
-        let occ = 0 
-          for (let j=0;j<table.length;j++)
-            if (arr[i]=== arr[j])
-              occ++ 
-            }
-        
-      }
+})();
+
     
           
