@@ -1,0 +1,46 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Cyclops",
+      "alterEgo": "Scott Summers",
+      "abilities": [
+        "Optic force blasts",
+        "Master tactician"
+      ]
+    },
+    {
+      "name": "Peter Parker",
+      "AlterEgo": "spider-man",
+      "abilities": [
+        "Toile d'araignée ",
+        " prémonition"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Clark Kent",
+      "AlterEgo": "Superman",
+      "abilities": [
+        "Trop de trucs"
+      ],
+      "id": 3
+    },
+    {
+      "name": "manu",
+      "AlterEgo": "esteban",
+      "abilities": [
+        "ce transforme en femme le vendredi soir"
+      ],
+      "id": 4
+    },
+    {
+      "name": "bdf",
+      "AlterEgo": "fdb",
+      "abilities": [
+        "dfbdfb"
+      ],
+      "id": 5
+    }
+  ]
+}
