@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    background-color: black;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 200%;
+    margin-top: 250px;
+}
