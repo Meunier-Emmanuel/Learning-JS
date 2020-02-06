@@ -170,7 +170,7 @@ let getDomainName = (string) => {
 }
 
 let titleize = (string) => {
-    return string.replace(/(?<=the\s|\.\s)\w|^[t]/g, (word) => {
+    return string.replace(/^t|l|w|\.\sa/g, (word) => {
         return word.toUpperCase()
     });
 }
