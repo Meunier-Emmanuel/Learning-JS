@@ -32,12 +32,12 @@ let reverseWordsInArray = (array) => {
 }
 
 let everyPossiblePair = (array) => {
-    pair = []
-    pair.push([array[2],array[0]])
-    pair.push([array[2],array[1]])
-    pair.push([array[0],array[1]])
+    // pair = []
+    // pair.push([array[2],array[0]])
+    // pair.push([array[2],array[1]])
+    // pair.push([array[0],array[1]])
     
-    return pair;
+    // return pair;
 }
 
 let allElementsExceptFirstThree = (array) => {
@@ -130,14 +130,14 @@ let getAllLetters = (array) => {
     arr = new Set (array)
     arr = Array.from(arr)
     return arr.flatMap(element => element.split("")).sort()
+    // let letters = array.toString().replace(/,/g,"").split("")
+    // letters = new Set (letters)
+    // letters = Array.from(letters)
+    // return letters.sort()
 }
-
 let swapKeysAndValues = (object) => {
     objet = {}
-    for (let prop in object) {if(object.hasOwnProperty(prop)) {
-        objet[object[prop]] = prop;
-        }
-    }
+    for (let prop in object) {if(object.hasOwnProperty(prop)) {objet[object[prop]] = prop;}}
     return objet;
 }
 
@@ -161,7 +161,8 @@ let roundUp = (number) => {
 }
 
 let formatDateNicely = (date) => {
-    return `0${date.getDate()}/0${date.getDay()}/${date.getFullYear()}`;
+    // return `0${date.getDate()}/0${date.getDay()}/${date.getFullYear()}`;
+    return date.toLocaleDateString("FR-fr")
 }
 
 let getDomainName = (string) => {
